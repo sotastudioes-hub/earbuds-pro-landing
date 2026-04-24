@@ -35,7 +35,7 @@ export const CheckoutModal = ({ isOpen, onClose, cartCount, setCartCount }: Chec
             <div className="flex-1 overflow-y-auto px-8 pb-8 custom-scrollbar max-h-[70vh]">
               <div className="bg-zinc-50 rounded-2xl p-4 mb-8 flex items-center gap-4 border border-zinc-100">
                 <div className="w-20 h-20 bg-white rounded-xl flex items-center justify-center border border-zinc-200 overflow-hidden">
-                  <img src="/frames_webp/frame_0241.webp" className="w-full h-full object-cover scale-[1.4]" alt="Earbuds Pro" />
+                  <img src="/frames_webp/frame_0241.jpg" className="w-full h-full object-cover scale-[1.4]" alt="Earbuds Pro" />
                 </div>
                 <div className="flex-1">
                   <div className="text-[13px] font-bold text-zinc-900 leading-tight notranslate">Earbuds Pro - Edición Especial</div>

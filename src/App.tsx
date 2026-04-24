@@ -24,7 +24,7 @@ export default function App() {
 
     const loadImages = async () => {
       const firstImg = new Image()
-      firstImg.src = `/frames_webp/frame_${START_FRAME.toString().padStart(4, '0')}.webp`
+      firstImg.src = `/frames_webp/frame_${START_FRAME.toString().padStart(4, '0')}.jpg`
       await new Promise((resolve) => {
         firstImg.onload = resolve
       })
@@ -34,7 +34,7 @@ export default function App() {
       for (let i = 1; i <= FRAME_COUNT; i++) {
         if (i === START_FRAME) continue
         const img = new Image()
-        img.src = `/frames_webp/frame_${i.toString().padStart(4, '0')}.webp`
+        img.src = `/frames_webp/frame_${i.toString().padStart(4, '0')}.jpg`
         img.onload = () => { imagesRef.current[i] = img }
       }
     }
