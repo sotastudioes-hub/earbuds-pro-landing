@@ -130,7 +130,7 @@ export default function App() {
 
       {/* Navigation */}
       <nav className="fixed top-4 left-1/2 -translate-x-1/2 w-[calc(100%-32px)] max-w-[1200px] h-14 rounded-full bg-white/70 backdrop-blur-xl border border-white/30 flex items-center justify-between px-5 z-50">
-        <a href="#" className="font-display font-extrabold text-lg text-zinc-900">Earbuds Pro</a>
+        <a href="#" className="font-display font-extrabold text-lg text-zinc-900 notranslate">Earbuds Pro</a>
         <button
           onClick={() => cartCount > 0 && setIsCheckoutOpen(true)}
           className={`btn-cool relative flex items-center gap-2 px-6 overflow-hidden transition-all duration-500 ${cartCount > 0 ? 'pr-4' : ''}`}
@@ -196,7 +196,7 @@ export default function App() {
       {/* Content Sections */}
       <div className={`content-inner justify-end pb-[10vh] items-start pl-[25vw] ${progress < 0.08 ? 'visible' : ''}`}>
         <div className="overline-text">Diseñados para el detalle</div>
-        <h1 className="headline-xl">Earbuds Pro</h1>
+        <h1 className="headline-xl notranslate">Earbuds Pro</h1>
         <p className="sub-headline">Acústica pura. Diseño sin costuras.</p>
       </div>
 
@@ -249,7 +249,7 @@ export default function App() {
           </div>
           <div className="flex-1" />
           <div>
-            <div className="text-[32px] font-black text-white tracking-tighter mb-1 drop-shadow-xl">Earbuds Pro</div>
+            <div className="text-[32px] font-black text-white tracking-tighter mb-1 drop-shadow-xl notranslate">Earbuds Pro</div>
             <div className="text-[10px] font-black uppercase tracking-[3px] text-accent drop-shadow-md">Chip H2 • Cancelación Activa • Estuche MagSafe</div>
             <button
               onClick={() => setCartCount(prev => prev + 1)}

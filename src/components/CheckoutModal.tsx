@@ -38,7 +38,7 @@ export const CheckoutModal = ({ isOpen, onClose, cartCount, setCartCount }: Chec
                   <img src="/frames_webp/frame_0241.webp" className="w-full h-full object-cover scale-[1.4]" alt="Earbuds Pro" />
                 </div>
                 <div className="flex-1">
-                  <div className="text-[13px] font-bold text-zinc-900 leading-tight">Earbuds Pro - Edición Especial</div>
+                  <div className="text-[13px] font-bold text-zinc-900 leading-tight notranslate">Earbuds Pro - Edición Especial</div>
                   <div className="text-[11px] text-zinc-500 font-medium">Cantidad: {cartCount}</div>
                 </div>
                 <div className="text-[15px] font-black text-zinc-900">${249 * cartCount}</div>
