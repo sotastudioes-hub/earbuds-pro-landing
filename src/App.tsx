@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { FooterDrawer } from './components/FooterDrawer'
 import { CheckoutModal } from './components/CheckoutModal'
 
-const FRAME_COUNT = 265
+const FRAME_COUNT = 267
 const START_FRAME = 20
 
 export default function App() {
