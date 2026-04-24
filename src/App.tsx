@@ -244,7 +244,7 @@ export default function App() {
         <div className="flex flex-col justify-between h-[100dvh] w-full max-w-[500px] text-center px-10 py-[12vh]">
           <div>
             <div className="text-[14px] font-black uppercase tracking-[8px] text-black mb-3 drop-shadow-sm">Oferta de Lanzamiento</div>
-            <h2 className="text-[64px] font-black leading-none text-white drop-shadow-2xl">249€</h2>
+            <h2 className="text-[64px] font-black leading-none text-white drop-shadow-2xl">24,99€</h2>
             <div className="text-[13px] font-semibold text-white/70 underline cursor-pointer mt-2 drop-shadow-md">Envío gratuito y devoluciones en 30 días*</div>
           </div>
           <div className="flex-1" />
