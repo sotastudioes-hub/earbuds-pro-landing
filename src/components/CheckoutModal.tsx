@@ -41,7 +41,7 @@ export const CheckoutModal = ({ isOpen, onClose, cartCount, setCartCount }: Chec
                   <div className="text-[13px] font-bold text-zinc-900 leading-tight notranslate">Earbuds Pro - Edición Especial</div>
                   <div className="text-[11px] text-zinc-500 font-medium">Cantidad: {cartCount}</div>
                 </div>
-                <div className="text-[15px] font-black text-zinc-900">${249 * cartCount}</div>
+                <div className="text-[15px] font-black text-zinc-900">{249 * cartCount}€</div>
               </div>
 
               <form className="space-y-8" onSubmit={(e) => { e.preventDefault(); alert('¡Pedido procesado con éxito!'); onClose(); setCartCount(0); }}>
@@ -106,7 +106,7 @@ export const CheckoutModal = ({ isOpen, onClose, cartCount, setCartCount }: Chec
                 <div className="pt-6 border-t border-zinc-100 space-y-2">
                   <div className="flex justify-between text-[13px] font-medium text-zinc-500">
                     <span>Subtotal</span>
-                    <span>${249 * cartCount}.00</span>
+                    <span>{249 * cartCount}.00€</span>
                   </div>
                   <div className="flex justify-between text-[13px] font-medium text-zinc-500">
                     <span>Envío</span>
@@ -114,11 +114,11 @@ export const CheckoutModal = ({ isOpen, onClose, cartCount, setCartCount }: Chec
                   </div>
                   <div className="flex justify-between text-[13px] font-medium text-zinc-500">
                     <span>Impuestos est.</span>
-                    <span>${(249 * cartCount * 0.21).toFixed(2)}</span>
+                    <span>{(249 * cartCount * 0.21).toFixed(2)}€</span>
                   </div>
                   <div className="flex justify-between text-lg font-black text-zinc-900 pt-2 border-t border-zinc-50 mt-2">
                     <span>Total</span>
-                    <span>${(249 * cartCount * 1.21).toFixed(2)}</span>
+                    <span>{(249 * cartCount * 1.21).toFixed(2)}€</span>
                   </div>
                 </div>
 
