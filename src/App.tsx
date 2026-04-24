@@ -212,7 +212,7 @@ export default function App() {
 
       <div className={`content-inner justify-center items-center text-center ${progress > 0.38 && progress < 0.58 ? 'visible' : ''}`}>
         <h2 className="headline-xl text-zinc-900 uppercase leading-[0.85] scale-125">
-          Siente el <br /> Futuro
+          Conoce el <br /> Futuro
         </h2>
       </div>
 
