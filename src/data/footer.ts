@@ -1,12 +1,12 @@
 export const footerData = {
   faq: [
-    { q: "Battery Life", a: "Up to 30 hours of total listening time with the MagSafe Charging Case and Active Noise Cancellation enabled." },
-    { q: "Audio Technology", a: "Custom high-excursion driver with Adaptive Transparency and Personalized Spatial Audio with dynamic head tracking." },
-    { q: "Connectivity", a: "Bluetooth 5.3 and the new H2 chip for near-zero latency and instant device switching." },
-    { q: "Durability", a: "IPX4 rated sweat and water resistance for both the earbuds and the charging case." }
+    { q: "Batería", a: "Hasta 30 horas de reproducción total con el estuche de carga MagSafe y la cancelación activa activada." },
+    { q: "Tecnología de Audio", a: "Transductor a medida con audio espacial personalizado y seguimiento dinámico de la cabeza." },
+    { q: "Conectividad", a: "Bluetooth 5.3 y chip H2 para una latencia casi nula y cambio instantáneo de dispositivo." },
+    { q: "Resistencia", a: "Resistencia al sudor y al agua (IPX4) tanto en los auriculares como en el estuche." }
   ],
   sections: [
-    { title: "Customer Service", links: ["Home", "Support", "Orders", "Shop", "Contact", "Status"] },
+    { title: "Atención al Cliente", links: ["Inicio", "Soporte", "Pedidos", "Tienda", "Contacto", "Estado"] },
   ],
   social: [
     { href: "#", label: "TikTok", icon: "tiktok" },

@@ -135,7 +135,7 @@ export default function App() {
           onClick={() => cartCount > 0 && setIsCheckoutOpen(true)}
           className={`btn-cool relative flex items-center gap-2 px-6 overflow-hidden transition-all duration-500 ${cartCount > 0 ? 'pr-4' : ''}`}
         >
-          <span>Buy</span>
+          <span>Comprar</span>
           {cartCount > 0 && (
             <motion.span
               initial={{ scale: 0 }}
@@ -157,7 +157,7 @@ export default function App() {
         <div className="animate-marquee">
           {[...Array(12)].map((_, i) => (
             <span key={i} className="text-[9px] font-black uppercase tracking-[4px] text-white px-12 whitespace-nowrap">
-              Limited Launch Offer • Free Worldwide Shipping • Order Now • Limited Launch Offer • Free Worldwide Shipping • Order Now
+              Oferta de Lanzamiento • Envío Gratis a todo el mundo • Pide ahora • Oferta de Lanzamiento • Envío Gratis a todo el mundo • Pide ahora
             </span>
           ))}
         </div>
@@ -165,54 +165,54 @@ export default function App() {
 
       {/* Floating Spec Labels */}
       <div className={`spec-label top-[15%] right-[10%] text-right ${progress > 0.22 && progress < 0.38 ? 'visible' : ''}`}>
-        <div className="text-[11px] font-extrabold text-accent uppercase tracking-wider">Mic</div>
+        <div className="text-[11px] font-extrabold text-accent uppercase tracking-wider">Micro</div>
         <div className="text-lg font-bold text-zinc-900">Beamforming</div>
         <div className={`text-[10px] text-zinc-500 font-medium leading-snug mt-1 max-w-[150px] transition-all duration-700 ${progress > 0.24 && progress < 0.38 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}>
-          Crystal clear voice capture.
+          Captura de voz cristalina.
         </div>
       </div>
       <div className={`spec-label top-[22%] left-[10%] ${progress > 0.25 && progress < 0.38 ? 'visible' : ''}`}>
-        <div className="text-[11px] font-extrabold text-accent uppercase tracking-wider">Driver</div>
-        <div className="text-lg font-bold text-zinc-900">High-excursion</div>
+        <div className="text-[11px] font-extrabold text-accent uppercase tracking-wider">Transductor</div>
+        <div className="text-lg font-bold text-zinc-900">Alta excursión</div>
         <div className={`text-[10px] text-zinc-500 font-medium leading-snug mt-1 max-w-[150px] transition-all duration-700 ${progress > 0.27 && progress < 0.38 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}>
-          Deep bass, zero distortion.
+          Bajos profundos, sin distorsión.
         </div>
       </div>
       <div className={`spec-label top-[75%] right-[10%] text-right ${progress > 0.28 && progress < 0.38 ? 'visible' : ''}`}>
-        <div className="text-[11px] font-extrabold text-accent uppercase tracking-wider">H2 Chip</div>
-        <div className="text-lg font-bold text-zinc-900">Ultra-low latency</div>
+        <div className="text-[11px] font-extrabold text-accent uppercase tracking-wider">Chip H2</div>
+        <div className="text-lg font-bold text-zinc-900">Latencia ultra baja</div>
         <div className={`text-[10px] text-zinc-500 font-medium leading-snug mt-1 max-w-[150px] ml-auto transition-all duration-700 ${progress > 0.30 && progress < 0.38 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}>
-          Advanced computational power.
+          Potencia computacional avanzada.
         </div>
       </div>
       <div className={`spec-label top-[82%] left-[10%] ${progress > 0.31 && progress < 0.38 ? 'visible' : ''}`}>
-        <div className="text-[11px] font-extrabold text-accent uppercase tracking-wider">Tip</div>
-        <div className="text-lg font-bold text-zinc-900">Perfect Seal</div>
+        <div className="text-[11px] font-extrabold text-accent uppercase tracking-wider">Almohadilla</div>
+        <div className="text-lg font-bold text-zinc-900">Sellado perfecto</div>
         <div className={`text-[10px] text-zinc-500 font-medium leading-snug mt-1 max-w-[150px] transition-all duration-700 ${progress > 0.33 && progress < 0.38 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}>
-          All-day comfort and fit.
+          Comodidad y ajuste todo el día.
         </div>
       </div>
 
       {/* Content Sections */}
       <div className={`content-inner justify-end pb-[10vh] items-start pl-[25vw] ${progress < 0.08 ? 'visible' : ''}`}>
-        <div className="overline-text">Engineered for Detail</div>
+        <div className="overline-text">Diseñados para el detalle</div>
         <h1 className="headline-xl">Earbuds Pro</h1>
-        <p className="sub-headline">Pure acoustics. Seamless design.</p>
+        <p className="sub-headline">Acústica pura. Diseño sin costuras.</p>
       </div>
 
       <div className={`content-inner justify-between pt-[15vh] pb-[8vh] items-center text-center ${progress > 0.1 && progress < 0.22 ? 'visible' : ''}`}>
         <div className="flex flex-col items-center">
-          <h2 className="headline-lg">Beyond Sound.</h2>
-          <p className="text-[12px] text-zinc-500 font-bold uppercase tracking-[3px] mt-1 opacity-70">Computational Audio Era</p>
+          <h2 className="headline-lg">Más que sonido.</h2>
+          <p className="text-[12px] text-zinc-500 font-bold uppercase tracking-[3px] mt-1 opacity-70">Era del Audio Computacional</p>
         </div>
         <p className="text-[22px] md:text-[32px] font-bold text-zinc-900 leading-tight max-w-[600px]">
-          Every micron refined for an <br className="hidden md:block" /> acoustic experience.
+          Cada micra refinada para una <br className="hidden md:block" /> experiencia acústica única.
         </p>
       </div>
 
       <div className={`content-inner justify-center items-center text-center ${progress > 0.38 && progress < 0.58 ? 'visible' : ''}`}>
         <h2 className="headline-xl text-zinc-900 uppercase leading-[0.85] scale-125">
-          Meet the <br /> Future
+          Siente el <br /> Futuro
         </h2>
       </div>
 
@@ -220,17 +220,17 @@ export default function App() {
         className={`content-inner justify-start pt-[10vh] items-start text-left ${progress > 0.6 && progress < 0.78 ? 'visible' : ''}`}
         style={{ transform: `translateY(${progress > 0.6 && progress < 0.78 ? (15 - ((progress - 0.6) / 0.18) * 15) : 0}vh)` }}
       >
-        <h3 className="headline-lg">Sound tunnel.</h3>
-        <p className="sub-headline">Spatial algorithms measure your unique ear shape.</p>
+        <h3 className="headline-lg">Túnel de sonido.</h3>
+        <p className="sub-headline">Algoritmos espaciales que miden tu fisionomía única.</p>
       </div>
 
       <div className={`content-inner justify-between pt-[15vh] pb-[10vh] items-center ${progress > 0.82 && progress < 0.92 ? 'visible' : ''}`}>
         <div className="text-center">
-          <h2 className="headline-lg">Infinite Energy.</h2>
-          <p className="overline-text opacity-60">Power that keeps up with you</p>
+          <h2 className="headline-lg">Energía Infinita.</h2>
+          <p className="overline-text opacity-60">Potencia que te sigue el ritmo</p>
         </div>
         <div className="grid grid-cols-2 gap-2.5 w-full max-w-[400px]">
-          {[{ v: '30h', d: 'Battery' }, { v: '6h', d: 'Charge' }, { v: '2x', d: 'ANC' }, { v: '24-bit', d: 'Lossless' }].map((s, i) => (
+          {[{ v: '30h', d: 'Batería' }, { v: '6h', d: 'Carga' }, { v: '2x', d: 'Cancelación' }, { v: '24-bit', d: 'Sin pérdida' }].map((s, i) => (
             <div key={i} className="bg-white/80 p-4 rounded-2xl text-center border border-black/5 shadow-sm">
               <div className="text-2xl font-extrabold">{s.v}</div>
               <div className="text-[9px] font-bold text-zinc-500 uppercase tracking-widest">{s.d}</div>
@@ -243,19 +243,19 @@ export default function App() {
       <div className={`content-inner items-center justify-center pointer-events-auto bg-transparent ${progress >= 0.99 ? 'visible' : ''}`}>
         <div className="flex flex-col justify-between h-[100dvh] w-full max-w-[500px] text-center px-10 py-[12vh]">
           <div>
-            <div className="text-[14px] font-black uppercase tracking-[8px] text-black mb-3 drop-shadow-sm">Limited Launch Offer</div>
+            <div className="text-[14px] font-black uppercase tracking-[8px] text-black mb-3 drop-shadow-sm">Oferta de Lanzamiento</div>
             <h2 className="text-[64px] font-black leading-none text-white drop-shadow-2xl">$249</h2>
-            <div className="text-[13px] font-semibold text-white/70 underline cursor-pointer mt-2 drop-shadow-md">Free shipping and 30-day free returns*</div>
+            <div className="text-[13px] font-semibold text-white/70 underline cursor-pointer mt-2 drop-shadow-md">Envío gratuito y devoluciones en 30 días*</div>
           </div>
           <div className="flex-1" />
           <div>
             <div className="text-[32px] font-black text-white tracking-tighter mb-1 drop-shadow-xl">Earbuds Pro</div>
-            <div className="text-[10px] font-black uppercase tracking-[3px] text-accent drop-shadow-md">H2 Chip • Active Noise Cancellation • MagSafe Case</div>
+            <div className="text-[10px] font-black uppercase tracking-[3px] text-accent drop-shadow-md">Chip H2 • Cancelación Activa • Estuche MagSafe</div>
             <button
               onClick={() => setCartCount(prev => prev + 1)}
               className="btn-cool w-full h-14 text-lg mt-5 shadow-2xl transition-transform active:scale-[0.98]"
             >
-              Add to Bag
+              Añadir a la cesta
             </button>
           </div>
         </div>

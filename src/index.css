@@ -44,11 +44,11 @@ body {
   }
 
   .headline-xl {
-    @apply text-[clamp(32px, 10vw, 90px)] font-black tracking-tighter leading-[0.9];
+    @apply text-[clamp(32px,10vw,90px)] font-black tracking-tighter leading-[0.9];
   }
 
   .headline-lg {
-    @apply text-[clamp(24px, 8vw, 64px)] font-extrabold tracking-tight;
+    @apply text-[clamp(24px,8vw,64px)] font-extrabold tracking-tight;
   }
 
   .sub-headline {

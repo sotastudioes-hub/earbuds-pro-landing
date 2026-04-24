@@ -5,3 +5,5 @@ dist
 *.backup.tsx
 optimize-frames.cjs
 package-lock.json
+
+.vercel
